@@ -69,10 +69,9 @@ i.ico {
 .catcontainer {
   display: flex;
   grid-area: 2/4/5/6;
-  justify-self: center;
 }
 #cat {
-max-block-size: -webkit-fill-available;
+  max-block-size: -webkit-fill-available;
   flex: auto;
   object-fit: contain;
 }
@@ -160,4 +159,9 @@ max-block-size: -webkit-fill-available;
   50% {
     transform: scale(1.5);
   }
+}
+.catcontainer {
+  display: flex;
+  grid-area: 2/4/5/6;
+  justify-self: center;
 }
