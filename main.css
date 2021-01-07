@@ -69,10 +69,12 @@ i.ico {
 .catcontainer {
   display: flex;
   grid-area: 2/4/5/6;
+  justify-self: center;
 }
 #cat {
-  max-block-size: -webkit-fill-available;
+max-block-size: -webkit-fill-available;
   flex: auto;
+  object-fit: contain;
 }
 .lds-default {
   display: inline-block;
